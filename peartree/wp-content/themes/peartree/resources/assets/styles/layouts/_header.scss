@@ -1,0 +1,37 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+
+.banner .nav a {
+  @extend .nav-link;
+}
+
+.top-bar {
+  background-color: #aac35e;
+  height: 3rem;
+  width: 100%;
+}
+
+.main-logo {
+  height: 10.5rem;
+}
+
+.nav-bar {
+  padding-top: 4rem;
+  font-size: 1.4rem;
+
+  &-left {
+    padding-top: 6rem;
+  }
+
+  &-right {
+    padding-top: 6rem;
+  }
+
+  a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: lighten($color-primary-text, 30%);
+  }
+}
